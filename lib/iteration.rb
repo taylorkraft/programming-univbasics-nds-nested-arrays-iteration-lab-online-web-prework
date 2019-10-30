@@ -24,9 +24,8 @@ end
 
 def total_even_pairs(src)
   
-idx = 0
-total = 0
-
+  idx = 0
+  total = 0
 while idx < src.length do 
   if src[idx][0].even? && src[idx][1].even?
 total += src[idx].sum
